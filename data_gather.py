@@ -8,8 +8,8 @@ from google.oauth2.credentials import Credentials
 
 # Scopes, Google Sheet ID, and range
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
-SHEET_ID = '18CMxp7QzHvYmwbFb3gWDJwL9o7Bxb0OJ_Us3YgIlvqs'
-RANGE = 'lifting!A:N'
+SHEET_ID = 'SHEET_ID'
+RANGE = 'RANGE:RANGE'
 
 def get_sheet_data():
     creds = None
